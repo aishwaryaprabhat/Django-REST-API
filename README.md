@@ -22,3 +22,7 @@ docker-compose run app sh -c "python manage.py startapp core"
 ```
 docker-compose run app sh -c "python manage.py makemigrations core"
 ```
+- Create super user
+```
+docker-compose run app sh -c "python manage.py createsuperuser"
+```
