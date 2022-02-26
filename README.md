@@ -12,5 +12,5 @@ docker-compose run app sh -c "django-admin.py startproject app ."
 ```
 -  Running unit tests
 ```
-docker-compose run app sh -c "python manage.py test"
+docker-compose run app sh -c "python manage.py test && flake8"
 ```
