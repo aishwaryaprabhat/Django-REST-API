@@ -5,7 +5,12 @@ A REST API built using the following technologies:
 - Travis CI
 - Postgres
 
-## Starting project
+## Useful commands
+-  Starting project
 ```
 docker-compose run app sh -c "django-admin.py startproject app ."
+```
+-  Running unit tests
+```
+docker-compose run app sh -c "python manage.py test"
 ```
