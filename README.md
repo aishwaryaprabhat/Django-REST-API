@@ -26,3 +26,10 @@ docker-compose run app sh -c "python manage.py makemigrations core"
 ```
 docker-compose run app sh -c "python manage.py createsuperuser"
 ```
+
+## General Flow (TDD)
+- Add test for creating object
+- Add model for object
+- Register model in admin
+- Add test for listing objects
+- Add feature for listing objects
